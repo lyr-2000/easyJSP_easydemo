@@ -23,6 +23,7 @@ public class LoginController extends BaseController{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession session = req.getSession();
+        // log.error(req.getParameter("name"));
         if(session.getAttribute("login")==null) {
             renderView(req,"login.jsp");
         }else {

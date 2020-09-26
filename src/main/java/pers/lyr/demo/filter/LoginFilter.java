@@ -30,6 +30,7 @@ public class LoginFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpSession session = ((HttpServletRequest)request).getSession();
+        // chain.doFilter(request, response);
         // System.out.println("heeh");
         if(passRequest((HttpServletRequest) request,(HttpServletResponse)response)) {
             chain.doFilter(request,response);

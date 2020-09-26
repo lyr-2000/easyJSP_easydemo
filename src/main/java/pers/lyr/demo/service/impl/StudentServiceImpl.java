@@ -3,6 +3,7 @@ package pers.lyr.demo.service.impl;
 import lombok.NonNull;
 import pers.lyr.demo.common.factory.DaoFactory;
 import pers.lyr.demo.dao.StudentDAO;
+import pers.lyr.demo.dao.impl.StudentDAOImpl;
 import pers.lyr.demo.pojo.po.Student;
 import pers.lyr.demo.service.StudentService;
 
@@ -15,6 +16,7 @@ import java.util.List;
  */
 public class StudentServiceImpl implements StudentService {
     StudentDAO studentDAO = DaoFactory.getStudentDAO();
+    // StudentDAO studentDAO1 = new StudentDAOImpl();
     @Override
     public Student selectOneById(Student s) {
         return studentDAO.selectById(s);

@@ -3,6 +3,8 @@ package pers.lyr.demo.dao;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.RowMapper;
 import pers.lyr.demo.common.factory.JdbcTemplateFactory;
 
@@ -20,8 +22,9 @@ import java.util.List;
  * @Author lyr
  * @create 2020/9/13 15:54
  */
-@Slf4j
+
 public abstract class BaseDAOImpl<T> implements BaseDAO<T>{
+    private Logger log = LoggerFactory.getLogger(BaseDAOImpl.class);
     /**
      * 获取 T 表的名字
      * @return 数据库表的名字

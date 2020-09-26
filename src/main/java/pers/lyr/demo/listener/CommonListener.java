@@ -24,11 +24,6 @@ public class CommonListener implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        HikariDataSource dx = JdbcUtil.getDataSource();
-        if(dx !=null && !dx.isClosed()) {
-            //关闭 tomcat 不会报警告
-            dx.close();
 
-        }
     }
 }

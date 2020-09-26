@@ -353,6 +353,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkhelper/controller/FileApiController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkhelper/controller/HomeworkGroupApiController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkhelper/controller/HomeworkRecordApiController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkhelper/controller/LoginApiController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkhelper/controller/StudentApiController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkheper/common/dto/Result.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../外包/homework_helper/demo/homeworkheper/src/main/java/top/hundreds/homeworkheper/util/WebUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

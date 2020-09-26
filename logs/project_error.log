@@ -1,6 +1,1 @@
-2020-09-13 20:34:14.691 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
-2020-09-13 20:48:02.793 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
-2020-09-13 20:49:12.650 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
-2020-09-13 20:49:53.751 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
-2020-09-13 20:50:25.432 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
-2020-09-13 20:51:24.074 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了
+2020-09-19 20:25:10.436 ERROR --- [           main] p.l.d.c.b.ServiceTransactionProxyWrapper : 事务执行出现异常了

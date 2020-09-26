@@ -10,8 +10,10 @@ import pers.lyr.demo.dao.impl.TeacherDAOImpl;
  * @create 2020/9/13 13:15
  */
 public class DaoFactory {
+    private static TeacherDAO dao = new TeacherDAOImpl();
     public static TeacherDAO getTeacherDAO() {
-        return new TeacherDAOImpl();
+
+        return dao;
     }
 
     public static StudentDAO getStudentDAO() {

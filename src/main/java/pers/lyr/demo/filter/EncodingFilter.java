@@ -20,8 +20,11 @@ public class EncodingFilter  implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         request.setCharacterEncoding("UTF-8");
         response.setCharacterEncoding("UTF-8");
-        // System.out.println("拦截到请求");
-        chain.doFilter(request, response);
+
+        // 执行 servlet 的 service 之前
+        chain.doFilter(request, response); //进入 servlet 执行方法
+
+        //视图渲染之后，
     }
 
 

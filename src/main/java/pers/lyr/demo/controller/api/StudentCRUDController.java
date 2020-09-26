@@ -41,4 +41,6 @@ public class StudentCRUDController extends BaseController {
             WebUtil.renderJson(resp, Result.from("添加成功", 200, pk));
         }
     }
+
+
 }

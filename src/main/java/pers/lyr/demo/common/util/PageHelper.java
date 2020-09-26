@@ -28,8 +28,8 @@ public class PageHelper {
         if(0==totalPage) {
             totalPage = 1;
         }
-        System.out.println(size+": : "+page
-        );
+        // System.out.println(size+": : "+page
+        // );
         request.setAttribute("totalPage",totalPage);
         request.setAttribute("curPage",page);
         // request.setAttribute("showPage",totalPage - page);
